@@ -1,0 +1,7 @@
+type Another {
+  something: String
+}
+
+type Query {
+  another: Another
+}

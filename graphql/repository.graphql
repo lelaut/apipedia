@@ -1,0 +1,12 @@
+type GithubRepository {
+  value: String
+}
+
+type ADORepository {
+  value: String
+}
+
+type Query {
+  github: [GithubRepository]
+  ado: [ADORepository]
+}
